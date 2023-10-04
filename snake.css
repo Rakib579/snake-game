@@ -53,7 +53,6 @@ body{
     color: #B8C6DC;
     text-align: center;
     width: calc(100%/4);
-    border-right: 1px solid black;
 }
 @media (max-width: 800px) {
     .wrapper{
@@ -66,6 +65,9 @@ body{
     }
     .controls{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 0 30%;
     }
     .controls i {
         padding: 15px 0;
