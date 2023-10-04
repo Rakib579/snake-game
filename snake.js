@@ -22,7 +22,7 @@ function changeFoodPosition(){
 
 function handleGameOver(){
     clearInterval(setIntervalID);
-    alert("Game Over!! Press OK to replay...");
+    alert("Game Over!! Press OK to play");
     location.reload();
 }
 
